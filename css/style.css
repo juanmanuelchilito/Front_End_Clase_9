@@ -1,0 +1,294 @@
+
+body{
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;    
+
+}
+
+
+section{
+    text-align: center;
+}
+
+.header{
+
+    background: black;
+    height: 20px;
+    color: white
+
+}
+
+.nav{
+
+    background: #F0A83E; 
+    padding-top: 30px; 
+    padding-bottom: 30px;
+    padding-bottom: 40px; 
+    padding-left: 30px;
+    color: white;
+}
+
+
+.nav .navOption{
+    float: right;
+    color: white;    
+    padding-right: 30px   
+}
+
+.banner{
+    
+    display: flex;   
+    flex-direction: row-reverse;
+    justify-content:right;
+    height: 35vw;
+    background-image: url('../img/banner.png');
+    background-size: cover;  
+    background-repeat: no-repeat;
+    background-position: center;
+  
+    }
+
+.bannerText{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+
+}
+
+
+#placer{
+    display: flex;
+    background-color: white;        
+    font-size: 30px;
+    font-weight:900;
+    border-radius: 5px;
+    padding: 6px 8px;
+    color: #3C2313;
+    margin: 10px;
+}
+
+#cEnDescuento{
+    display: flex;
+    font-size: 16px;
+    font-weight: 900;
+}
+
+#botonComederos{
+    display: flex;
+    background:#F0A83E;
+    color:#FFFFFF;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+    border-color: #F0A83E;
+}
+
+h2{
+    font-weight: bold;
+    font-size: 40px;
+    }
+
+.nav2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;    
+    margin: 30px;
+}
+
+.nav2 > a{
+    display: flex;
+    margin: 7px;
+    text-decoration: none;
+    color:#666666;
+    font-size: 15px;
+   
+}
+
+.nav2 > div{
+    display: flex;
+    margin: 7px;
+    text-decoration: none;
+    color:#666666;
+    font-size: 15px;
+   
+}
+
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cards > a {
+    display: flex;
+    margin: 10px;
+}
+
+.contactanos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:center;
+}
+
+
+
+.contactanos > p{    
+    font-weight: bold; 
+    font-size: 25px;
+}
+
+.contactanos > input{
+    display: flex;
+    background: #3C2313; 
+    color: white;
+    border-radius: 15px;
+    width: 340px;
+    height: 40px;
+    margin: 10px;
+   
+}
+
+.botonesContactanos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px;
+}
+
+#resetear {
+    background: #8A8787;
+    color:white;
+    border-radius:15px;
+    width: 110px;
+    height: 34px;  
+    margin: 5px 5px 60px 5px;  
+}
+
+#enviar{
+    background: #F0A83E;
+    color:white;
+    border-radius:15px;
+    width: 110px;
+    height: 34px;
+    margin: 5px 5px 60px 5px;
+}
+
+.suscribete{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background: #F0A83E;
+    color: white; 
+    padding: 20px;
+}
+
+.paraMasNovedades{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 0.01;
+    
+}
+
+.paraMasNovedades >div{
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+.suscribirse{
+    display: flex;   
+    
+}
+
+#suscribirme {
+    background:#3C2313;
+    width: 90px;
+    height: 34px;background: #3C2313; 
+    border-radius: 15px; 
+    color: white;   
+
+}
+
+#ingresarCorreo{
+    background: #FFFFFF; 
+    border-radius: 15px; 
+    width: 271px; 
+    height: 40px;
+}
+
+.datosFooter{
+    display:flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-between;
+    align-items: center;
+    background: #3C2313; 
+    color: white; 
+    padding: 0px 80px 20px 20px;
+}
+
+.imagenesDatos{
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;    
+    padding-top: 40px;   
+}
+
+.imagenesDatos > div {
+    margin: 40px 15px 20px 40px
+}
+
+
+#logoFooter{    
+    margin-left:auto;
+}
+
+.textoDatosFooter{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:flex-start;  
+    
+}
+
+.textoDatosFooter2flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#textoDatosFooter1{
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 0px;
+    margin-top: 70px;
+
+        
+}
+
+#textoDatosFooter2{        
+    color: #8A8787;
+    font-weight: bold;
+    font-size: 10px;   
+    
+}
+
+footer{
+
+    text-align:center;
+    background: black; 
+    color: white;
+    
+}
+
